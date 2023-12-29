@@ -20,7 +20,7 @@ func GetAlbums() []Album {
 
 	var albums []Album
 
-	album1 := Album{Id: 1, Title: "You, Me and an App ID", Artist: "Daprize", Price: 56.99, Image_URL: "https://aka.ms/albums-daprlogo"}
+	album1 := Album{Id: 1, Title: "You, Me and an App ID TEST", Artist: "Daprize", Price: 56.99, Image_URL: "https://aka.ms/albums-daprlogo"}
 	albums = append(albums, album1)
 
 	album2 := Album{Id: 2, Title: "Seven Revision Army", Artist: "The Blue-Green Stripes", Price: 39.99, Image_URL: "https://aka.ms/albums-containerappslogo"}
